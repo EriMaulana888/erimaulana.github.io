@@ -10,21 +10,10 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <!-- Bootstrap Icon -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <!-- AOS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <!-- My Css -->
-  <style>
-    .jumbotron {
-      padding-top: 6rem;
-      background-color: #e2edff;
-    }
-
-    .mywish {
-      background-color: #e2edff;
-    }
-
-    section {
-      padding-top: 6rem;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
   <title>Project - Eri Maulana</title>
 </head>
 
@@ -58,9 +47,10 @@
   <!-- Akhir Navbar -->
   <!-- Jumbotron -->
   <section class="jumbotron text-center">
-    <img src="img/profile.jpg" class="rounded-circle img-thumbnail" width="200px">
+    <img src="img/profile.jpg" data-aos="flip-up" data-aos-duration="2000" data-aos-delay="300"
+         class="rounded-circle img-thumbnail" width="200px">
     <h1 class="display-4 fw-3">Eri Maulana</h1>
-    <p class="lead">Mahasiswa | Kaur Perencanaan | Solo Learn</p>
+    <p class="lead" data-aos="fade-down" data-aos-duration="2000" data-aos-delay="300">Mahasiswa | Perangkat Desa </p>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
       <path fill="#fff" fill-opacity="1"
             d="M0,128L48,122.7C96,117,192,107,288,117.3C384,128,480,160,576,186.7C672,213,768,235,864,229.3C960,224,1056,192,1152,160C1248,128,1344,96,1392,80L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
@@ -76,14 +66,14 @@
           <h2>My Quotes</h2>
         </div>
       </div>
-      <div class="row text-center justify-content-center fs-5 mt-3">
-        <div class="col-sm-5">
-          <p>Dari begitu banyak sahabat, tak ada sahabat yang lebih baik dari seorang sahabat yang bisa menjaga
-            lidahnya. Jika kamu menemukan nya jagalah ia layaknya sebuah Berlian </p>
+      <div class="row text-center justify-content-center fs-5 mt-3" data-aos-offset="450">
+        <div class="col-sm-5" data-aos="fade-left" data-aos-duration="1000">
+          <p>Sedikit Rapuh Namun Tidak Sampai Patah , <br> Asal Tidak Di Guncang Terlalu Kencang . <br> Semuanya Baik
+            Baik Saja ^_^ <br><strong> ~Eri Maulana</strong></p>
         </div>
-        <div class="col-sm-5">
-          <p>Bukankah hidup ini sebenarnya mudah? <br>Jika rindu, DATANGI... <br> Jika Tidak Senang, UNGKAPKAN...<br>
-            Jika Cemburu , TEKANKAN...<br> Jika Sayang , BUKTIKAN...<br> Jika Lapar , MAKAN... </p>
+        <div class="col-sm-5" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
+          <p>No One You Can Trust<br>Except, <b>"Your Self And Your God"</b><br>So.... Loving Your Self with only Pray
+            to Your God <br><strong> ~Eri Maulana</strong></p>
         </div>
       </div>
     </div>
@@ -104,29 +94,29 @@
       </div>
       <div class="row ">
         <div class="col-sm-4 mb-3">
-          <div class="card">
+          <div class="card" data-aos="zoom-in-up" data-aos-duration="1000">
             <img src="img/1.jpg" class="card-img-top" alt="...">
           </div>
         </div>
         <div class="col-sm-4 mb-3">
-          <div class="card">
+          <div class="card" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="100">
             <img src="img/2.jpg" class="card-img-top" alt="...">
           </div>
         </div>
         <div class="col-sm-4 mb-3">
-          <div class="card">
+          <div class="card" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="200">
             <img src="img/6.jpg" class="card-img-top" alt="...">
           </div>
         </div>
       </div>
       <div class="row justify-content-center">
         <div class="col-sm-5 mb-3">
-          <div class="card">
+          <div class="card" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="300">
             <img src="img/3.jpg" class="card-img-top" alt="...">
           </div>
         </div>
         <div class="col-sm-5 mb-3">
-          <div class="card">
+          <div class="card" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="400">
             <img src="img/4.jpg" class="card-img-top" alt="...">
           </div>
         </div>
@@ -186,13 +176,21 @@
   <!-- Akhir Contact Me-->
   <!-- Footer -->
   <footer class="bg-primary text-white text-center pb-3">
-    <p class="fs-3">Created With <i class="bi bi-balloon-heart-fill text-danger"></i> by <a
-         href="https://www.instagram.com/erii.maulana11/" class="text-white">Eri Maulana </a>
+    <p class="fs-3" data-aos="flip-left" data-aos-duration="2000" data-aos-delay="100" data-aos-offset="50">Created With
+      <i class="bi bi-balloon-heart-fill text-danger"></i> by <a href="https://www.instagram.com/erii.maulana11/"
+         class="text-white">Eri Maulana </a>
   </footer>
   <!-- Akhir Footer -->
+  <!-- BOOTSTRAP SCRIPT -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
           integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
           crossorigin="anonymous"></script>
+  <!-- AOS SCRIPT -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <!-- MY SCRIPT -->
   <script>
     const scriptURL = 'https://script.google.com/macros/s/AKfycbw2vB8Q0W5B8b2vT-oZK-XwmKuTu7anau50e7y1VPxkPXTFTaxzle11uVdlStarUB5l1g/exec'
     const form = document.forms['eri-contact-form']
